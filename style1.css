@@ -443,3 +443,27 @@ color: rgb(213, 239, 13);
     text-align: justify;
     text-decoration: none;
 }
+@media only screen and (max-width: 768px) {
+  .home-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar a {
+    margin: 0.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header, .home-content {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2, h3 {
+    font-size: 1.2rem;
+  }
+}
